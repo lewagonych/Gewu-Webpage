@@ -3,16 +3,16 @@
   top: 0;
   z-index: 1000;
   background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: background-color 0.3s ease;
 
   .nav-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: auto;
     padding: 10px 20px;
   }
 
@@ -26,6 +26,14 @@
     list-style: none;
     margin: 0;
     padding: 0;
+
+    .btn {
+      margin-left: 50px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: black;
+    }
 
     li {
       margin-left: 25px;
@@ -42,8 +50,4 @@
       }
     }
   }
-}
-
-body {
-  padding-top: 10px;
 }
